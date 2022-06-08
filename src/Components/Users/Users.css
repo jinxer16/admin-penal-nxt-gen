@@ -1,0 +1,68 @@
+.th-style {
+    background: #4EC04F;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #4EC04F;
+    border-right: none;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #4EC04F;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #4EC04F;
+    background: #4EC04F;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-size {
+    background-color: #4EC04F;
+    appearance: button;
+    background-color: #4EC04F;
+    border: solid transparent;
+    border-radius: 5px;
+    border-width: 0 0 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+
+    border-width: 0px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
