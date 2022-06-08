@@ -10,7 +10,21 @@ body {
 .services-block-three i {
     font-size: 32px;
 }
-
+.nav-link .active{
+    background-color: transparent
+}
+.nav-link1{
+    background-color: #F3AB44;
+    color: white;
+}
+.nav-link2{
+    background-color: #2EA07C;
+    color: white;
+}
+.nav-link3{
+    background-color: #3A75FB;
+    color: white;
+}
 .services-block-three {
     display: block;
     border: 2px solid #d5d5d5;
@@ -51,7 +65,8 @@ body {
 }
 
 .padding-15px-bottom {
-    padding: 6px 127px;
+    padding: 6px 17px;
+    /* border: 2px solid red; */
 }
 
 .tab-heading {
@@ -114,7 +129,7 @@ span:active {
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .button-19:after {

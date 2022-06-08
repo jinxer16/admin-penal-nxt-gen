@@ -12,7 +12,7 @@ export default function Request() {
                             <div className="col-lg-3 d-flex justify-content-end">
                                 {/* <input type="text" placeholder="Search" class="form-control " /> */}
                                 {/* <button class="button-1 btn-size" role="button">Search</button> */}
-                                <input type="text" className="searchTerm" placeholder="Search"></input>
+                                <input type="text" className="searchTerm" placeholder="Search"/>
                                 <button type="submit" className="searchButton">
                                     <i className="fa fa-search"></i>
                                 </button>
@@ -23,13 +23,13 @@ export default function Request() {
                                 {/* <h2 className='text-start'>Daily</h2> */}
                                 <ul className="nav nav-tabs" role="tablist" >
                                     <li className="nav-item tab-heading">
-                                        <a className="nav-link active " data-toggle="tab" href="#tabs-1" role="tab">Poineer</a>
+                                        <a className="nav-link  nav-link1" data-toggle="tab" href="#tabs-1" role="tab">Poineer</a>
                                     </li>
                                     <li className="nav-item tab-heading">
-                                        <a className="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Advanced</a>
+                                        <a className="nav-link nav-link2" data-toggle="tab" href="#tabs-2" role="tab">Advanced</a>
                                     </li>
                                     <li className="nav-item tab-heading">
-                                        <a className="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Hero</a>
+                                        <a className="nav-link nav-link3" data-toggle="tab" href="#tabs-3" role="tab">Hero</a>
                                     </li>
 
 

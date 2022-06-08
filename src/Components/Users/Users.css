@@ -24,12 +24,12 @@ th {
 }
 
 .searchTerm:focus {
-    color: #4EC04F;
+    color: #000000;
 }
 
 .searchButton {
     width: 40px;
-    height: 36px;
+    height: 40px;
     border: 1px solid #4EC04F;
     background: #4EC04F;
     text-align: center;
@@ -65,4 +65,10 @@ th {
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
+}
+
+input[type= "text"]{
+    padding: 17px;
+    font-size: 20px;
+color: white;
 }

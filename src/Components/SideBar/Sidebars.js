@@ -87,7 +87,7 @@ function ResponsiveDrawer(props) {
                         <ul className="sub-menu collapse" id="products">
                             <li><Link to='/'>Daily</Link></li>
 
-                            <li><Link to='/tvk'>TVK</Link></li>
+                            <li><Link to='/tvk'>TVL</Link></li>
 
                         </ul>
                         <li className="d-flex justify-content-start mb-4 mt-4" style={{ fontSize: "15px" }}>

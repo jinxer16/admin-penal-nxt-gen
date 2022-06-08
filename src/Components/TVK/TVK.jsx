@@ -28,13 +28,16 @@ export default function TVK() {
                 <div className="  col-lg-6 col-md-11  mt-5">
                     <h2 style={{ fontSize: '45px', fontWeight: '800' }} className='text-white'>TVL</h2>
 
-                    <div className='row d-flex justify-content-center align-items-center '>
-                        <div className='services-block-three col-lg-10 col-md-5 col-10 pt-4 pb-4'>
-                            <input type="text" placeholder="Type request" className="form-control " />
+                    <div className='row d-flex flex-column justify-content-center align-items-center ' >
+                        <div className='services-block-three col-lg-10 col-md-5 col-10 pt-4 pb-4 d-flex flex-column justify-content-center align-items-center '>
+                        <div className="padding-15px-bottom col-lg-8 col-10">
+                                                <input type="text" placeholder="TVL" className="form-control " />
+                                                </div>
+                            {/* <input type="text" placeholder="Type request" className="form-control " /> */}
                             <div className='row d-flex justify-content-center'>
-                                <div className="col-lg-4 ">
+                                <div className="col-lg-7 ">
                                     <div className="d-grid gap-2">
-                                        <button className="btn mt-2 button-19" size="lg">
+                                        <button className="btn mt-2 button-19" >
                                             Submit
                                         </button>
 
